@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>ironbookmarks</string>
+	<key>connections</key>
+	<dict>
+		<key>5DBEA531-326D-4036-8FDE-9353EFE432FB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DECBA52-9293-4787-85D5-4C531C8B1B99</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16D3173B-B8EF-49FE-B5B2-EB9E9ED88524</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy URL to Clipboard</string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>ts123</string>
+	<key>description</key>
+	<string>Search SRWare Iron Bookmarks</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>SRWareIronBookmarks</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>org.chromium.Chromium</string>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7DECBA52-9293-4787-85D5-4C531C8B1B99</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>16D3173B-B8EF-49FE-B5B2-EB9E9ED88524</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>irb</string>
+				<key>runningsubtext</key>
+				<string>Searching …</string>
+				<key>script</key>
+				<string>import workflow
+workflow.main(unicode('''{query}''', 'utf-8'))
+</string>
+				<key>subtext</key>
+				<string>irb &lt;SEARCH TEXT&gt;</string>
+				<key>title</key>
+				<string>SRWare Iron Bookmarks</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5DBEA531-326D-4036-8FDE-9353EFE432FB</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>16D3173B-B8EF-49FE-B5B2-EB9E9ED88524</key>
+		<dict>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>5DBEA531-326D-4036-8FDE-9353EFE432FB</key>
+		<dict>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>7DECBA52-9293-4787-85D5-4C531C8B1B99</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/ts123/SRWareIronBookmarks.alfredworkflow.git</string>
+</dict>
+</plist>
