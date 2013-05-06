@@ -74,15 +74,15 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>irb</string>
+				<string>ir</string>
 				<key>runningsubtext</key>
 				<string>Searching …</string>
 				<key>script</key>
-				<string>import workflow
-workflow.main(unicode('''{query}''', 'utf-8'))
+				<string>import suggest
+suggest.main(unicode('''{query}''', 'utf-8'))
 </string>
 				<key>subtext</key>
-				<string>irb &lt;SEARCH TEXT&gt;</string>
+				<string>ir &lt;SEARCH TEXT&gt;</string>
 				<key>title</key>
 				<string>SRWare Iron Bookmarks</string>
 				<key>type</key>
