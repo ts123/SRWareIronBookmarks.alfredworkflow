@@ -11,3 +11,5 @@ SRWareIronBookmarks.alfredworkflow
 
 - alfred.py 
  - https://github.com/phyllisstein/alp
+- jsonpath
+ - https://pypi.python.org/pypi/jsonpath/
