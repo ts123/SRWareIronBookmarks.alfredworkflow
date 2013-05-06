@@ -10,6 +10,6 @@ SRWareIronBookmarks.alfredworkflow
 ## Dependencies
 
 - alfred.py 
- - https://github.com/phyllisstein/alp
+ - https://github.com/nikipore/alfred-python
 - jsonpath
  - https://pypi.python.org/pypi/jsonpath/
